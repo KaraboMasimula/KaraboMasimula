@@ -62,7 +62,7 @@ public class Reader {
 			System.out.println("    Delays: "+delayCount+", Maximum Delay = "+ max +" seconds");
 			System.out.println("---------------------------------------------");
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println(e);
 		}
 
 	}
