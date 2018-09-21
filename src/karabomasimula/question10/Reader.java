@@ -13,7 +13,6 @@ public class Reader {
 		int previous = 0;
 		int current;
 
-		// To Be Displayed At The End
 		int max = 0;
 		int delayCount = 0;
 		
@@ -62,7 +61,7 @@ public class Reader {
 			System.out.println("    Delays: "+delayCount+", Maximum Delay = "+ max +" seconds");
 			System.out.println("---------------------------------------------");
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println(e);
 		}
 
 	}
