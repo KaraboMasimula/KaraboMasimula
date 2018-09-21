@@ -13,7 +13,6 @@ public class Reader {
 		int previous = 0;
 		int current;
 
-		// To Be Displayed At The End
 		int max = 0;
 		int delayCount = 0;
 		
