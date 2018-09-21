@@ -11,6 +11,7 @@ public class Question8 extends Date {
 		Question8 q = new Question8();
 		System.out.println("Seconds : "+ q.getTime("seconds"));
 		System.out.println("Milliseconds : "+ q.getTime("milliseconds"));
+		
 	}
 
 	
